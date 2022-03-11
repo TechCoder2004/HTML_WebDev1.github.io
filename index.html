@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>    
+    <style>button{
+        display: block;
+        background-color: rgb(0, 79, 250);
+        color: whitesmoke;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-right:10px;
+        padding-bottom: 3px;
+        font-family:'Segoe UI';
+        font-size:20px;
+        border-radius: 20px;
+        
+    }
+    label{
+        color:aliceblue;
+        background-color:rgb(42, 42, 250);
+        font-stretch: expanded;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-bottom:2px;
+        border-radius: 10px;
+        font-family:'Segoe UI';
+        font-size:20px;
+        line-height: 45px;
+        size: 100px;
+    }
+    input{
+        display:block;
+        grid-column-start: auto;    
+        border-radius: 20px;
+        border-color: rgb(34, 34, 236);
+        outline-width: 15px;
+        outline-color:rgb(34, 88, 238);
+        padding-right: 13px;
+        padding-left: 13px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border-width: 1px;
+        font-family:'Segoe UI';
+        font-size: 20px;
+    }
+    
+    marquee{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 30px;
+        
+    }
+    div.header{
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 12px;
+        color: aqua;
+        font-family: 'Segoe UI';
+    }
+    div.footer{
+        font-size: medium;
+        color: aqua;
+        font-family: 'Segoe UI';
+    }
+    fieldset {
+        background-color: cyan;
+        display:inline-block;
+        opacity: 60;    
+        align-content: center;
+      }</style>
+
+    
+</head>
+
+<body bgcolor="black">
+    <script>
+        function myfunc1(){
+            alert("Submitted!")
+        }
+    </script>
+    <form action="#" >
+    <div class="header" align="center">
+        <h1 style="color:whitesmoke">This is a Registration Form   </h1>
+    </div>
+        
+    <br>
+    for formatting invisible text in the grid in center alignment ........................
+    
+
+    
+    <fieldset width="400px" >
+
+        <h1><u>Registration Form</u> </h3>
+        <label for="Entering-name">Name</label>
+        <input type="text" name="inptext" id="1">
+        <br>
+        <label for="Username">Username</label>
+        <input type="text" name="inpusrnm" id="2">
+        <br>
+        <label for="Email">Email</label>
+        
+        <input type="email" name="inptxt" id="3">
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" name="inpwd" id="4">
+        
+        <h4 style="color:red">*<a href="t&c.html" target="_blank">Terms and Conditions</a> Apply</h4>
+       <!-- <button onclick="flushdata()"> Submit </button> -->
+       
+       <input type="submit" value=" Submit " onclick= "myfunc1()"/>
+    </fieldset>
+<div class="footer" align="center" font="Segoe UI">
+    <h4 style="color:whitesmoke">Copyright © Shrey Kashyap (2021UGME011) <br> All Rights reserved.</h4>
+</form>
+
+</div>
+</body>
+
+</html>
